@@ -16,12 +16,11 @@ namespace oop_assignment_1_group
         }
     
             //dawid kicinger incoming
-    
-    
+        
     }
 
 
-
+    //outgoing
 
    
 
