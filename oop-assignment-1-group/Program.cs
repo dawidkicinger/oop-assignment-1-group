@@ -15,7 +15,7 @@ namespace oop_assignment_1_group
             //plz help
         }
     
-            //ryan branch incoming
+            //dawid kicinger incoming
     
     
     }
