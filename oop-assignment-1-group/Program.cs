@@ -12,7 +12,18 @@ namespace oop_assignment_1_group
 
             Console.WriteLine("test 2");
 
-
+            //plz help
         }
+    
+            //ryan branch incoming
+    
+    
     }
+
+
+
+
+   
+
+
 }
