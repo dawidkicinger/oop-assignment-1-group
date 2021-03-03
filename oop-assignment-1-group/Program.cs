@@ -6,7 +6,7 @@ namespace oop_assignment_1_group
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("East Midlands (European Parliament Constituency)")
+            Console.WriteLine("East Midlands (European Parliament Constituency)");
         }
     }
 }
