@@ -21,10 +21,19 @@ namespace oop_assignment_1_group
 
 
 
-
         static void Main()
         {
-            int[] array1 = { 1, -1, -2, 0 };
+            int bp = 452321;
+            int ld = 203989;
+            int lab = 164682;
+            int con = 126138;
+            int gr = 124630;
+            int ukp = 58198;
+            int cuk = 41117;
+            int inet = 7541;
+            int ind = 4511;
+
+            int[] array1 = { ld, lab, con, gr, bp , ukp, cuk, inet, ind };
 
             // Find maximum number.
             Console.WriteLine(array1.Max());
