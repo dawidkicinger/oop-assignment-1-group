@@ -41,7 +41,7 @@ namespace oop_assignment_1_group
 
             int[] array1 = { ld, lab, con, gr, bp , ukp, cuk, inet, ind };
 
-            // Find maximum number.
+            // Find maximum number.xd
           
 
             if (array1.Max() == bp)
