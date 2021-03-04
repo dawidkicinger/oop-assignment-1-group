@@ -41,8 +41,8 @@ namespace oop_assignment_1_group
         // Find maximum number.
         Console.WriteLine(array1.Max());
 
-            // Find maximum number when all numbers are made positive.
-            Console.WriteLine(array1.Max(element => Math.Abs(element)));
+        // Find maximum number when all numbers are made positive.
+        Console.WriteLine(array1.Max(element => Math.Abs(element)));
         }
     }   
 }    
