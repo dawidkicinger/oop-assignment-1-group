@@ -22,29 +22,29 @@ namespace oop_assignment_1_group
 
 
 
-
         static void Main()
         {
-            private int bp = 452321;
-        private int ld = 203989;
-        private int lab = 164682;
-        private int con = 126138;
-        private int gr = 124630;
-        private int ukp = 58198;
-        private int cuk = 41117;
-        private int inet = 7541;
-        private int ind = 4511;
+            int[] array1 = { 1, -1, -2, 0 };
 
+            // Find maximum number.
+            Console.WriteLine(array1.Max());
 
-        int[] array1 = { bp, ld, lab, con, gr, ukp, cuk, inet, ind };
-
-        // Find maximum number.
-        Console.WriteLine(array1.Max());
-
-        // Find maximum number when all numbers are made positive.
-        Console.WriteLine(array1.Max(element => Math.Abs(element)));
+            // Find maximum number when all numbers are made positive.
+            Console.WriteLine(array1.Max(element => Math.Abs(element)));
         }
-    }   
+        
+        
+        
+        
+        
+        
+        
+               
+        
+    }
+        
+           
+       
 }    
 
 
