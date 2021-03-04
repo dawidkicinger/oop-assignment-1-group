@@ -1,8 +1,9 @@
 ﻿using System;
 
+
 namespace oop_assignment_1_group
 {
-    
+  
     //Brexit Party,     452321,     BP1,BP2,BP3,BP4,BP5;
     //Liberal Democrats,        203989      ,LD1,LD2,LD3,LD4,LD5;
     //Labour,       164682      ,LAB1,LAB2,LAB3,LAB4,LAB5;
@@ -15,11 +16,19 @@ namespace oop_assignment_1_group
     
     class Program
     {
-       
+        int bp = 452321;
+        int ld = 203989;
+        int lab = 164682;
+        int con = 126138;
+        int gr = 124630;
+        int ukp = 58198;
+        int cuk = 41117;
+        int inet = 7541;
+        int ind = 4511;
         static void Main(string[] args)
         {
             Console.WriteLine("East Midlands (European Parliament Constituency)");
-
+            
             
 
             
