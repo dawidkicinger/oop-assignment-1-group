@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Linq;
 
 namespace oop_assignment_1_group
 {
@@ -16,30 +16,47 @@ namespace oop_assignment_1_group
     
     class Program
     {
-        int bp = 452321;
-        int ld = 203989;
-        int lab = 164682;
-        int con = 126138;
-        int gr = 124630;
-        int ukp = 58198;
-        int cuk = 41117;
-        int inet = 7541;
-        int ind = 4511;
-        static void Main(string[] args)
-        {
-            Console.WriteLine("East Midlands (European Parliament Constituency)");
+       
+        
+        
+        
+        
             
-            
-
-            
-        }
     
+    
+        static void Main()
+        {
+            int bp = 452321;
+            int ld = 203989;
+            int lab = 164682;
+            int con = 126138;
+            int gr = 124630;
+            int ukp = 58198;
+            int cuk = 41117;
+            int inet = 7541;
+            int ind = 4511;
             
-    }
+            
+            
+            int[] array1 = {bp ,ld, lab, con, gr, ukp, cuk, inet, ind   };
+
+            // Find maximum number.
+            Console.WriteLine(array1.Max());
+
+            // Find maximum number when all numbers are made positive.
+            Console.WriteLine(array1.Max(element => Math.Abs(element)));
+        
+        }
+
+        
+    }  
+    
+    
+}
 
 
     
    
 
 
-}
+
