@@ -32,13 +32,48 @@ namespace oop_assignment_1_group
             int cuk = 41117;
             int inet = 7541;
             int ind = 4511;
+            int bp1 = 0;
+            int bp2 = 0;
+            int ld1 = 0;
+            int lab1 = 0;
+            int con1 = 0;
+
 
             int[] array1 = { ld, lab, con, gr, bp , ukp, cuk, inet, ind };
 
             // Find maximum number.
-            Console.WriteLine(array1.Max());
+          
 
-            
+            if (array1.Max() == bp)
+                bp1 = (bp / 2);
+            Console.WriteLine("BP1 " + bp1);
+
+            int[] array2 = { ld, lab, con, gr, bp1, ukp, cuk, inet, ind };
+            if (array2.Max() == bp1)
+                bp2 = (bp1 / 2);
+            Console.WriteLine("BP2 " + bp2);
+
+            int[] array3 = { ld, lab, con, gr, bp2, ukp, cuk, inet, ind };
+
+            if (array3.Max() == ld)
+                ld1 = (ld / 2);
+            Console.WriteLine("LD1 " + ld1);
+
+            int[] array4 = { ld1, lab, con, gr, bp2, ukp, cuk, inet, ind };
+
+            if (array4.Max() == lab)
+                lab1 = (lab / 2);
+            Console.WriteLine("LAB1 " + lab1);
+
+            int[] array5 = { ld1, lab1, con, gr, bp2, ukp, cuk, inet, ind };
+
+            if (array5.Max() == con)
+                con1 = (con / 2);
+            Console.WriteLine("CON1 " + con1);
+
+
+
+
         }
         
         
