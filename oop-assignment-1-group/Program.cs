@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace oop_assignment_1_group
 {
-  
+
     //Brexit Party,     452321,     BP1,BP2,BP3,BP4,BP5;
     //Liberal Democrats,        203989      ,LD1,LD2,LD3,LD4,LD5;
     //Labour,       164682      ,LAB1,LAB2,LAB3,LAB4,LAB5;
@@ -13,46 +13,43 @@ namespace oop_assignment_1_group
     //Change UK,        41117,      CUK1,CUK2,CUK3,CUK4,CUK5;
     //Independent Network,      7641,     INET1,INET2,INET3,INET4,INET5;
     //Independent,      4511,     IND1;
-    
+
     class Program
     {
-       
-        
-        
-        
-        
-            
-    
-    
+
+
+
+
+
+
+
         static void Main()
         {
-            int bp = 452321;
-            int ld = 203989;
-            int lab = 164682;
-            int con = 126138;
-            int gr = 124630;
-            int ukp = 58198;
-            int cuk = 41117;
-            int inet = 7541;
-            int ind = 4511;
-            
-            
-            
-            int[] array1 = {bp ,ld, lab, con, gr, ukp, cuk, inet, ind   };
+            private int bp = 452321;
+        private int ld = 203989;
+        private int lab = 164682;
+        private int con = 126138;
+        private int gr = 124630;
+        private int ukp = 58198;
+        private int cuk = 41117;
+        private int inet = 7541;
+        private int ind = 4511;
 
-            // Find maximum number.
-            Console.WriteLine(array1.Max());
+
+        int[] array1 = { bp, ld, lab, con, gr, ukp, cuk, inet, ind };
+
+        // Find maximum number.
+        Console.WriteLine(array1.Max());
 
             // Find maximum number when all numbers are made positive.
             Console.WriteLine(array1.Max(element => Math.Abs(element)));
-        
         }
+    }   
+}    
 
-        
-    }  
+
     
-    
-}
+
 
 
     
