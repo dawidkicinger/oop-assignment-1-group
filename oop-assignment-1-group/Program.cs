@@ -3,6 +3,7 @@ using System.Linq;
 
 namespace oop_assignment_1_group
 {
+    //DATA used
 
     //Brexit Party,     452321,     BP1,BP2,BP3,BP4,BP5;
     //Liberal Democrats,        203989      ,LD1,LD2,LD3,LD4,LD5;
@@ -55,7 +56,7 @@ namespace oop_assignment_1_group
             // Find maximum number second result.
             if (array2.Max() == bp1)
             // Divide it by 2 to get the answer
-                bp2 = (bp1 / 2);
+                bp2 = (bp1 / 3);
             Console.WriteLine("BP2 " + bp2);
 
             // array list #3
@@ -85,7 +86,7 @@ namespace oop_assignment_1_group
                 con1 = (con / 2);
             Console.WriteLine("CON1 " + con1);
 
-
+            Console.WriteLine("Would you like to see the results again?");
 
 
         }
