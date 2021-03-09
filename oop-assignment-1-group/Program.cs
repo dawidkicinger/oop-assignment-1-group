@@ -25,7 +25,7 @@ namespace oop_assignment_1_group
         static void Main()
         {
             //variable implementation
-
+            
             int bp = 452321;
             int ld = 203989;
             int lab = 164682;
@@ -41,56 +41,67 @@ namespace oop_assignment_1_group
             int lab1 = 0;
             int con1 = 0;
 
-            // array list #1
-            int[] array1 = { ld, lab, con, gr, bp , ukp, cuk, inet, ind };
+            // round list #1
+            int[] round1 = { ld, lab, con, gr, bp, ukp, cuk, inet, ind };
 
             // Find maximum number for first result.
-            if (array1.Max() == bp)
-            // Divide it by 2 the to get the answer
+            if (round1.Max() == bp)
+                // Divide it by 2 the to get the answer
                 bp1 = (bp / 2);
             Console.WriteLine("BP1 " + bp1);
 
-            // array list #2
-            int[] array2 = { ld, lab, con, gr, bp1, ukp, cuk, inet, ind };
+            // round list #2
+            int[] round2 = { ld, lab, con, gr, bp1, ukp, cuk, inet, ind };
 
             // Find maximum number second result.
-            if (array2.Max() == bp1)
-            // Divide it by 2 to get the answer
+            if (round2.Max() == bp1)
+                // Divide it by 2 to get the answer
                 bp2 = (bp1 / 3);
             Console.WriteLine("BP2 " + bp2);
 
-            // array list #3
-            int[] array3 = { ld, lab, con, gr, bp2, ukp, cuk, inet, ind };
+            // round list #3
+            int[] round3 = { ld, lab, con, gr, bp2, ukp, cuk, inet, ind };
 
             // Find maximum number for third result
-            if (array3.Max() == ld)
-            // Divide it by 2 to get the answer
+            if (round3.Max() == ld)
+                // Divide it by 2 to get the answer
                 ld1 = (ld / 2);
             Console.WriteLine("LD1 " + ld1);
 
-            // array list #4
-            int[] array4 = { ld1, lab, con, gr, bp2, ukp, cuk, inet, ind };
+            // round list #4
+            int[] round4 = { ld1, lab, con, gr, bp2, ukp, cuk, inet, ind };
 
             // Find maximum number for third result
-            if (array4.Max() == lab)
-            // Divide it by 2 to get the answer
+            if (round4.Max() == lab)
+                // Divide it by 2 to get the answer
                 lab1 = (lab / 2);
             Console.WriteLine("LAB1 " + lab1);
 
-            // array list #5
-            int[] array5 = { ld1, lab1, con, gr, bp2, ukp, cuk, inet, ind };
+            // round list #5
+            int[] round5 = { ld1, lab1, con, gr, bp2, ukp, cuk, inet, ind };
 
             // Find maximum number for third result
-            if (array5.Max() == con)
-            // Divide it by 2 to get the answer
+            if (round5.Max() == con)
+                // Divide it by 2 to get the answer
                 con1 = (con / 2);
             Console.WriteLine("CON1 " + con1);
-
-            Console.WriteLine("Would you like to see the results again?");
-
+            Recalculate();
 
         }
-        
+        static void Recalculate()
+        {
+            string repeated = "no";
+            Console.WriteLine("Would you like to see the results again?");
+            repeated = Console.ReadLine();
+            if (repeated.ToLower() == "yes")
+            {
+                Main();
+            }
+            else
+            {
+                System.Environment.Exit(0);
+            }
+        }
         
         
         
